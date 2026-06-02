@@ -1,0 +1,6 @@
+{
+  "name": "카페 음료 주문 앱",
+  "description": "사용자가 음료를 탐색하고, 옵션을 선택하고, 장바구니에 담아 주문을 완료할 수 있는 카페 음료 주문 애플리케이션입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

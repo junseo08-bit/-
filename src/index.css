@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  
+  --color-brand-dark: #1e3932;       /* Starbucks Dark Forest Green */
+  --color-brand-primary: #00704a;    /* Starbucks Core Green */
+  --color-brand-accent: #cba258;     /* Starbucks Soft Accent Gold */
+  --color-brand-cream-bg: #FAF6F0;   /* Warm Starbucks-style Cream Canvas BG */
+  --color-brand-cream-card: #FFFFFF; /* High-contrast white card */
+  --color-brand-cream-border: #f0eae1;/* Soft Border */
+  --color-brand-text: #2D251E;       /* Deep Roast Dark Text */
+  --color-brand-muted: #6B5B52;      /* Gentle Milk Chocolate Muted Text */
+  --color-brand-light-green: #e6f2ed;/* Gentle Starbucks Warm Active Green Bubble */
+}
+
+/* Custom Base Rules */
+html {
+  background-color: var(--color-brand-cream-bg);
+  color: var(--color-brand-text);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+}
+
+/* Base custom styles to ensure polished layouts */
+.safe-bottom-padding {
+  padding-bottom: env(safe-area-inset-bottom, 24px);
+}
+
+/* Custom scrollbars for beverage list scroll preview */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E0DCD6;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #CBA258;
+}
