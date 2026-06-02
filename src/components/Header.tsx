@@ -15,7 +15,7 @@ export default function Header() {
   const getScreenTitle = () => {
     switch (screen) {
       case 'home':
-        return 'Green Mug';
+        return '준서카페';
       case 'list':
         return '음료 메뉴';
       case 'detail':
@@ -27,7 +27,7 @@ export default function Header() {
       case 'confirmed':
         return '주문 완료';
       default:
-        return 'Green Mug';
+        return '준서카페';
     }
   };
 
@@ -74,7 +74,7 @@ export default function Header() {
         {/* Center: Brand name or screen title */}
         <div className="flex-1 text-center font-bold tracking-tight text-lg flex items-center justify-center gap-1.5 select-none">
           {screen === 'home' && (
-            <span className="text-brand-accent font-extrabold text-xl font-sans tracking-wide">GREEN MUG</span>
+            <span className="text-brand-accent font-extrabold text-[22px] font-soft tracking-wider">준서카페</span>
           )}
           {screen !== 'home' && (
             <span className="text-brand-cream-bg font-semibold">{getScreenTitle()}</span>

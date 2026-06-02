@@ -50,7 +50,7 @@ export default function ConfirmedView() {
           <Sparkles className="w-5 h-5 text-brand-accent absolute -top-1 -right-1 animate-pulse" />
         </motion.div>
 
-        <h3 className="text-xl font-extrabold text-brand-dark mt-6">그린머그 주문 완료!</h3>
+        <h3 className="text-xl font-extrabold text-brand-dark mt-6 font-soft">준서카페 주문 완료!</h3>
         <p className="text-xs text-brand-muted mt-2 max-w-[280px] mx-auto leading-relaxed">
           고객님, 주문하신 맛있는 음료 접수가 완료되어 정성껏 제조를 시작하겠습니다.
         </p>

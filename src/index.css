@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Gamja+Flower&family=Inter:wght@300;400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
 @theme {
   --font-sans: 'Inter', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  --font-soft: 'Gowun Dodum', 'Apple SD Gothic Neo', sans-serif;
+  --font-cute: 'Gamja Flower', cursive;
   
   --color-brand-dark: #1e3932;       /* Starbucks Dark Forest Green */
   --color-brand-primary: #00704a;    /* Starbucks Core Green */

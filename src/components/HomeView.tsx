@@ -41,13 +41,15 @@ export default function HomeView() {
       
       {/* 1. Welcome & Search Block */}
       <div className="pt-6 pb-2 select-none">
-        <h2 className="text-2xl font-extrabold text-brand-dark leading-tight flex items-center gap-1">
-          그린머그에 오신 것을
+        <h2 className="text-2xl font-extrabold text-brand-dark leading-tight flex items-center gap-1 font-soft">
+          준서카페에 오신 것을
         </h2>
-        <h2 className="text-2xl font-extrabold text-brand-dark tracking-tight">
+        <h2 className="text-2xl font-extrabold text-brand-dark tracking-tight font-soft">
           환영합니다! <span className="inline-block animate-wave text-3xl">☕</span>
         </h2>
-        <p className="text-xs text-brand-muted mt-1 font-medium">따뜻하고 부드러운 오늘 하루, 맛있는 음료와 함께하세요.</p>
+        <p className="font-cute text-base text-brand-muted mt-1.5 font-bold tracking-wide">
+          따뜻하고 부드러운 오늘 하루, 맛있는 음료와 함께하세요.
+        </p>
       </div>
 
       <form onSubmit={handleSearchSubmit} className="my-4 relative">
@@ -150,8 +152,8 @@ export default function HomeView() {
       {/* 4. Popular Beverage List */}
       <div className="mt-8">
         <div className="flex items-center justify-between px-1 mb-4">
-          <h4 className="font-extrabold text-md text-brand-dark flex items-center gap-1.5">
-            그린머그 시그니처 인기 메뉴 <span className="text-sm">🔥</span>
+          <h4 className="font-extrabold text-md text-brand-dark flex items-center gap-1.5 font-soft">
+            준서카페 시그니처 인기 메뉴 <span className="text-sm">🔥</span>
           </h4>
         </div>
 

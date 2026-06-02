@@ -195,7 +195,7 @@ export default function CartView() {
             <ShoppingBag className="w-7 h-7 text-[#00704a]/70" />
           </div>
           <h4 className="font-extrabold text-md text-brand-dark">장바구니가 비어 있습니다</h4>
-          <p className="text-xs text-brand-muted mt-1.5 leading-relaxed max-w-[240px] mx-auto">그린머그가 엄선하여 준비한 신선하고 맛있는 음료들을 장바구니에 담아 주문을 시작해보세요!</p>
+          <p className="text-xs text-brand-muted mt-1.5 leading-relaxed max-w-[240px] mx-auto">준서카페가 엄선하여 준비한 신선하고 맛있는 음료들을 장바구니에 담아 주문을 시작해보세요!</p>
           <button
             onClick={() => navigate('list')}
             className="mt-6 h-[42px] px-8 rounded-full bg-brand-primary hover:bg-brand-dark text-white text-xs font-extrabold transition-all shadow-md cursor-pointer animate-pulse"

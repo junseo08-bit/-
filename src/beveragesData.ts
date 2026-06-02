@@ -36,7 +36,7 @@ export const BEVERAGES: Beverage[] = [
     price: 5500,
     description: '달콤한 프리미엄 천연 바닐라 시럽과 고소한 에스프레소 라떼가 만나 은은하고 깊은 바닐라 향의 매력에 푹 빠질 수 있는 베스트셀러 음료입니다.',
     rating: 4.9,
-    image: 'https://images.unsplash.com/photo-1570968915860-54d5c301fc9f?auto=format&fit=crop&q=80&w=600',
+    image: 'https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&q=80&w=600',
     calories: 220,
     popular: true,
   },

@@ -369,7 +369,7 @@ export default function CheckoutView() {
         {/* Informative secure payment text */}
         <div className="flex items-center gap-2 justify-center py-2 select-none">
           <ShieldCheck className="w-4.5 h-4.5 text-emerald-600 h-[18px]" />
-          <span className="text-[10px] text-brand-muted font-bold">그린머그 안전 주문 가이드를 준수합니다.</span>
+          <span className="text-[10px] text-brand-muted font-bold">준서카페 안전 주문 가이드를 준수합니다.</span>
         </div>
 
       </div>
